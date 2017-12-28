@@ -14,7 +14,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 @ComponentScan("com.youotech.web")
 public class WebConfig extends WebMvcConfigurerAdapter{
 
-    @Bean              //配置JSP视图解析器
+    @Bean               //配置JSP视图解析器
     public ViewResolver viewResolver(){
 
         InternalResourceViewResolver resolver = new InternalResourceViewResolver();

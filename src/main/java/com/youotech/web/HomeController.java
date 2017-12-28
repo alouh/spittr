@@ -10,6 +10,6 @@ public class HomeController {
 
     @RequestMapping(method = RequestMethod.GET)         //生命对"/"的GET请求
     public String home(){
-        return  "home";
+        return "home";
     }
 }

@@ -19,7 +19,7 @@
                 <div class="spittleMessage">
                     <c:out value="${spittleBean.msg}"/>
                 </div>
-                <div >
+                <div>
                     <span class="spittleTime">
                         <c:out value="${spittleBean.time}"/>
                     </span>

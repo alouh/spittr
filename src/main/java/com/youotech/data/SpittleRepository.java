@@ -8,5 +8,5 @@ public interface SpittleRepository {
 
     List<SpittleBean> findSpittles(long max,int count);
 
-    SpittleBean findOne(long  id);
+    SpittleBean findOne(long id);
 }

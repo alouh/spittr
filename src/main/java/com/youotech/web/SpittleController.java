@@ -43,6 +43,6 @@ public class SpittleController {
             Model model) {
         model.addAttribute(spittleRepository.findOne(spittleId));
 
-        return  "spittle";
+        return "spittle";
     }
 }
