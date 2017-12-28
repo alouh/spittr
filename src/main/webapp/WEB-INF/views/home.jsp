@@ -15,7 +15,7 @@
               type="text/css"
               href="<c:url value="/resources/style.css"/> ">
     </head>
-    <body>
+    <body >
         <h1>Welcome to Spittr</h1>
 
         <a href="<c:url value="/spittles"/> ">Spittles</a> |

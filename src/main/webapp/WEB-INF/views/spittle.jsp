@@ -12,7 +12,7 @@
     <head>
         <title>Spittle</title>
     </head>
-    <body>
+    <body >
         <div class="spittleId">
             <c:out value="${spittleBean.id}"/>
         </div>

@@ -17,7 +17,7 @@ public class SpittleRepositoryImpl implements SpittleRepository {
         for (long i = 0L;i < count;i ++){
             spittleBeans.add(new SpittleBean(i,"MSG:" + i,new Date(),0d,0d));
         }
-        return spittleBeans;
+        return  spittleBeans;
     }
 
     public SpittleBean findOne(long id) {

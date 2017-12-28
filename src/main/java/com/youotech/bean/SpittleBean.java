@@ -34,7 +34,7 @@ public class SpittleBean {
     }
 
     public Date getTime() {
-        return time;
+        return  time;
     }
 
     public String getMsg() {
